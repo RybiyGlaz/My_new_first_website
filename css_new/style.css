@@ -1,0 +1,68 @@
+body {
+    background-color: #08161e;
+    font-family: 'Courier New', Courier, monospace;
+    color: wheat;
+}
+.my_photo {
+    background: url(../image/eskel.png) no-repeat center center;
+    background-size: 100%;
+    width: 300px;
+    height: 400px;
+}
+
+.witcher-photo {
+    width: 300px; /* Задайте желаемую ширину */
+    height: 400; /* Автоматический расчет высоты для сохранения пропорций */
+    margin-bottom: 20px; /* Добавьте нижний отступ для разделения фотографий */
+}
+.nav_logo {
+    background: url(../image/logo.jpg) no-repeat center center;
+    background-size: 100%;
+    width: 100px;
+    height: 100px;
+}
+
+.nav_bar {
+    font-size: 30px;
+    font-weight: bold;
+}
+.nav_text {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.container {
+    margin-top: 30px
+}
+.title_photo {
+    text-align: center;
+}
+.button_js {
+    text-align: center;
+}
+
+
+#myButton {
+    border:none;
+    border-radius: 15px;
+    width: 150px;
+    height: 50px;
+    background-color: chocolate;
+    color: aliceblue;
+    font-weight: bold;
+}
+#demo img {
+    margin-top: 20px;
+    width: 25%;
+}
+
+.row {
+}
+.col-8 {
+}
+.col-4 {
+}
+.col-3.nav_logo {
+}
+.col-9 {
+}
